@@ -1,7 +1,7 @@
 '''
 All files in Hanja-Hangul are available under Creative Commons Zero v1.0 Universal.
 Author: Masoris Karam KIM (masoris@gmail.com)
-Version 1.02
+Version 1.03
 '''
 
 import unicodedata, re, csv, os, sys
@@ -173,5 +173,5 @@ if __name__ == "__main__":
         print("Usage: %s 'Hanja for translate to Hangul'" % sys.argv[0])
         sys.exit(0)
 
-hangul_txt = sys.argv[1]
-print(hanja_to_hangul_dueum(hangul_txt))
+    hangul_txt = sys.argv[1]
+    print(hanja_to_hangul_dueum(hangul_txt))
