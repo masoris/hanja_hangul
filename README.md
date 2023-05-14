@@ -6,6 +6,8 @@
 >>> from hanjahangul import *
 >>> hanja_to_hangul_dueum("歷史 圓周率 確率")
 '역사 원주율 확률'
+>>> hanja_to_hangul_dueum("大韓民國의 主權은 國民에게 있고, 모든 權力은 國民으로부터 나온다.")
+'대한민국의 주권은 국민에게 있고, 모든 권력은 국민으로부터 나온다.'
 ```
 두음법칙을 무시하고 한자를 한글로 바꾼다.
 ```python
